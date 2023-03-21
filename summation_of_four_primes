@@ -1,0 +1,22 @@
+10168 Summation of Four Primes
+Euler proved in one of his classic theorems that prime numbers are infinite in number. But can every
+number be expressed as a summation of four positive primes? I don’t know the answer. May be you
+can help!!! I want your solution to be very efficient as I have a 386 machine at home. But the time limit
+specified above is for a Pentium III 800 machine. The definition of prime number for this problem is
+“A prime number is a positive number which has exactly two distinct integer factors”. As for example
+37 is prime as it has exactly two distinct integer factors 37 and 1.
+Input
+The input contains one integer number N (N ≤ 10000000) in every line. This is the number you will
+have to express as a summation of four primes. Input is terminated by end of file.
+Output
+For each line of input there is one line of output, which contains four prime numbers according to the
+given condition. If the number cannot be expressed as a summation of four prime numbers print the line
+‘Impossible.’ in a single line. There can be multiple solutions. Any good solution will be accepted.
+Sample Input
+24
+36
+46
+Sample Output
+3 11 3 7
+3 7 13 13
+11 11 17 7
